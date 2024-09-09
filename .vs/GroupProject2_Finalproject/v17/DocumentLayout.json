@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kruna\\source\\repos\\GroupProject2_Finalproject_net\\GroupProject2_Finalproject\\GroupProject2_Finalproject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6549D6E7-FB6E-4D8F-A3B3-5E4BF8FE0335}|GroupProject4_Finalproject.csproj|c:\\users\\kruna\\source\\repos\\groupproject2_finalproject_net\\groupproject2_finalproject\\groupproject2_finalproject\\admn.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6549D6E7-FB6E-4D8F-A3B3-5E4BF8FE0335}|GroupProject4_Finalproject.csproj|solutionrelative:admn.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admn.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kruna\\source\\repos\\GroupProject2_Finalproject_net\\GroupProject2_Finalproject\\GroupProject2_Finalproject\\Admn.aspx.cs",
+              "RelativeDocumentMoniker": "Admn.aspx.cs",
+              "ToolTip": "C:\\Users\\kruna\\source\\repos\\GroupProject2_Finalproject_net\\GroupProject2_Finalproject\\GroupProject2_Finalproject\\Admn.aspx.cs",
+              "RelativeToolTip": "Admn.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T02:14:38.449Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+﻿/* Reset some basic elements */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 75px; /* Footer height */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: center; /* This centers the container */
+    padding: 10px 0; /* Reduce horizontal padding */
+    overflow: hidden;
+    background-color: #0a0a23;
+}
+
+    .navbar a {
+        color: white;
+        text-align: center;
+        padding: 20px 25px; /* Reduce padding */
+        text-decoration: none;
+        font-size: 20px; /* Reduce font size */
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+  
+    text-align: center;
+    border-bottom: #0779e4 3px solid;
+    width: 100%;
+    height:auto;/* Set header width to match container */
+}
+
+    header h1 {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+/* Footer Styles */
+footer {
+    background-color: #0a0a23;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    /* Fix the footer to the bottom */
+    bottom: 0; /* Position the footer at the bottom */
+}
+
+    footer p {
+        margin: 10px 0;
+    }
+
+/* Utility Classes */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Responsive design */
+@media screen and (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        padding: 0;
+    }
+
+        .navbar a {
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+
+    header h1 {
+        font-size: 22px;
+    }
+}
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    background-color: #f9f9f9; /* Background color */
+    padding: 20px; /* Padding for inner content */
+}
+
+.product-item {
+    width: calc(30% - 10px); /* Adjust item width */
+    margin-bottom: 20px; /* Adjust spacing between rows */
+    border: 1px solid #ccc; /* Example border */
+    padding: 10px;
+    background-color: #fff; /* Background color for product item */
+}
+
+    .product-item h3 {
+        color: #0a0a23; /* Heading color */
+    }
+
+    .product-item p {
+        color: #0a0a23; /* Paragraph color */
+    }
+
+    .product-item strong {
+        font-weight: bold; /* Bold text for price and quantity */
+        color: #0a0a23; /* Color for bold text */
+    }
+.product-details-container {
+    text-align: center;
+    margin: auto;
+    max-width: 600px; /* Adjust max-width as needed */
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.product-detail {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+    .product-detail h3 {
+        font-weight: bolder;
+    }
+
+    .product-detail p {
+        margin: 0;
+        font-weight:bold;
+    }
+#lblUnitPrice {
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 150px;
+}
+
+
+
+
+

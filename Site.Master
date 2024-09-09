@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GroupProject4_Finalproject.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<link href="Content/Styles.css" rel="stylesheet" type="text/css" />
+    <link href="Scripts/bootstrap.min (3).css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+   <nav class="navbar">
+        <a href="Default.aspx">Home</a>
+         <a href="Admn.aspx">Admin Panel</a>
+        <a href="Products.aspx">Products</a>
+       <a href="Cart.aspx"> Cart</a>
+        <a href="Checkout.aspx">Checkout</a>
+     
+    </nav>
+     
+     <h1>Welcome to Our Home Decor Website</h1>
+    
+ </header>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer>
+        <p>Contact us: email@example.com</p>
+        <p>&copy; 2024 Home Decor Website</p>
+    </footer>
+</body>
+</html>
